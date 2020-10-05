@@ -1,0 +1,47 @@
+#container {
+    border-top: 3px solid red;
+}
+
+/* identifier {
+    property: value 
+} */
+
+p {}
+
+#unique {}
+
+.center {
+    background-color: red;
+    color: greenyellow;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    /* height: 300px; */
+}
+
+/* element with class of center */
+main.center {
+    background-color: white;
+    color: black;
+}
+
+/* all p inside div */
+/* div p {
+    color: blue
+} */
+/* all div with paragraph as child */
+/* .divp>p {
+    color: blue
+} */
+main .left {
+    float: left;
+    width: 60%;
+}
+
+main .right {
+    float: right;
+    width: 40%;
+}
